@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Unit tests" parallel="methods">
+	
+	<test name="Checking user age" parallel="methods">
+		<classes>
+			<class name="common.AgeHelperTests"></class>
+		</classes>
+	</test>
+</suite>

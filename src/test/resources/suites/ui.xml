@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI tests" parallel="methods">
+	
+	<test name="Google search" parallel="methods">
+		<classes>
+			<class name="ui.GoogleSearchTests"></class>
+		</classes>
+	</test>
+</suite>
